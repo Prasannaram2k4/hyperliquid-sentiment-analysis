@@ -27,7 +27,7 @@ A staggering majority of trading activity occurred during "Fear" periods.
 - **Extreme Greed**: ~6,900 trades
 - **Neutral**: ~7,100 trades
 
-![Volume by Sentiment](plots/volume_by_sentiment.png)
+![Volume by Sentiment](volume_by_sentiment.png)
 
 > **Insight:** Traders are highly active when the market is fearful. This could represent a mix of panic selling and smart-money accumulation.
 
@@ -36,7 +36,7 @@ While Fear periods see the most volume, the **Win Rate is highest during Extreme
 
 However, the **Average PnL per Trade is highest during standard "Greed" ($87.89)**, dropping to $50.04 in "Fear" and $25.41 in "Extreme Greed".
 
-![PnL Distribution](plots/pnl_by_sentiment.png)
+![PnL Distribution](pnl_by_sentiment.png)
 
 > **Actionable Strategy:** The data suggests that riding the trend during standard "Greed" phases is the most lucrative in terms of average payout, but "Extreme Greed" sees the highest probability of winning a trade (though with smaller relative returns).
 
@@ -46,7 +46,7 @@ When analyzing specific trade directions (Open Long, Close Long, Open Short, Clo
 - Shorting behavior (Close Short) also thrives during Fear ($189 Avg PnL), confirming the power of short-selling momentum during panics.
 - Interestingly, selling behavior during "Greed" has an 86% win rate and an outstanding $270.71 Avg PnL.
 
-![Win Rate by Direction](plots/winrate_direction_sentiment.png)
+![Win Rate by Direction](winrate_direction_sentiment.png)
 
 > **Actionable Strategy:** Traders systematically capture the most massive PnL upside by executing "Sells" and taking profits during the "Greed" phase, heavily outpacing typical Longs. 
 
